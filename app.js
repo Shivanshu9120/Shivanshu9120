@@ -12,7 +12,7 @@
     })
 })();
 // type writer
-const textArr = ['Competitive Programmer', 'I solved 400+ LeetCode questions','Mern Stack Developer','I command on backend Development']; /* The text */
+const textArr = ['Competitive Programmer', 'I solved many DSA problems','Web Developer']; /* The text */
 const speed = 100; /* The speed/duration of the effect in milliseconds */
 let index = 0;
 let textIndex = 0;
