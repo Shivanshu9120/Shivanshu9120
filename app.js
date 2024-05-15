@@ -13,7 +13,7 @@
 })();
 // type writer
 const textArr = ['Competitive Programmer', 'I solved many DSA problems','Web Developer']; /* The text */
-const speed = 100; /* The speed/duration of the effect in milliseconds */
+const speed = 125; /* The speed/duration of the effect in milliseconds */
 let index = 0;
 let textIndex = 0;
 
