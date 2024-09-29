@@ -12,7 +12,7 @@
     })
 })();
 // type writer
-const textArr = ['Competitive Programmer', 'I solved many DSA problems','Web Developer']; /* The text */
+const textArr = ['Competitive Programmer', 'Web Developer','UI/UX Designer','Machine Learning Enthusiast']; /* The text */
 const speed = 125; /* The speed/duration of the effect in milliseconds */
 let index = 0;
 let textIndex = 0;
