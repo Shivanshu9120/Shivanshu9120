@@ -11,8 +11,14 @@
         document.body.classList.toggle("light-mode");
     })
 })();
+<<<<<<< HEAD
 const textArr = ['Competitive Programmer', 'Web Developer', 'Machine Learning Enthusiast'];
 const speed = 150; // Reduced speed for a smoother typing effect
+=======
+// type writer
+const textArr = ['Competitive Programmer', 'I solved many DSA problems','Web Developer']; /* The text */
+const speed = 125; /* The speed/duration of the effect in milliseconds */
+>>>>>>> 89eec2978cdf1a5c2cc7a11a27e6a6cc1e7af8bb
 let index = 0;
 let textIndex = 0;
 
