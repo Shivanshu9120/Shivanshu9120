@@ -7,15 +7,17 @@
   .typewriter {
     text-align: left;
     margin-top: 10px;
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
   }
   
   #text {
     font-family: 'Courier New', Courier, monospace;
     font-size: 24px;
-    border-right: 2px solid black;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 4s steps(400) infinite;
+    /* animation: typing 4s steps(400) infinite; */
   }
   
   @keyframes typing {
@@ -316,7 +318,8 @@
   }
   .about-stats .progress-bars .progress-bar .progress-con .progress {
     width: 100%;
-    height: 0.45rem;
+    height: 15px;
+    border-radius: 10px;
     background-color: var(--color-grey-4);
     margin-left: 1rem;
     position: relative;
@@ -326,27 +329,58 @@
     top: 0;
     left: 0;
     height: 100%;
+    border-radius: 10px;
     background-color: var(--color-secondary);
     transition: all 0.4s ease-in-out;
     width: 60%;
   }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .dsa {
+    width: 75%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .cpp {
+    width: 75%;
+  }
   .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-    width: 80%;
+    width: 90%;
   }
   .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-    width: 95%;
+    width: 80%;
   }
   .about-stats .progress-bars .progress-bar .progress-con .progress .js {
-    width: 75%;
+    width: 70%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .python {
+    width: 70%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .java {
+    width: 60%;
   }
   .about-stats .progress-bars .progress-bar .progress-con .progress .react {
     width: 60%;
   }
-  .about-stats .progress-bars .progress-bar .progress-con .progress .node {
-    width: 87%;
+  .about-stats .progress-bars .progress-bar .progress-con .progress .bootstrap {
+    width: 60%;
   }
-  .about-stats .progress-bars .progress-bar .progress-con .progress .python {
-    width: 70%;
+  .about-stats .progress-bars .progress-bar .progress-con .progress .git {
+    width: 40%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .mongodb {
+    width: 10%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .node {
+    width: 10%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .linux {
+    width: 0%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .django {
+    width: 0%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .sql {
+    width: 0%;
+  }
+  .about-stats .progress-bars .progress-bar .progress-con .progress .rest-api {
+    width: 0%;
   }
   
   .stat-title {

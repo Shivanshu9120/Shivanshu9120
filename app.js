@@ -11,9 +11,8 @@
         document.body.classList.toggle("light-mode");
     })
 })();
-// type writer
-const textArr = ['Competitive Programmer', 'I solved multiple Geeks for Geeks questions','Full Stack Developer','A learning enthusiast']; /* The text */
-const speed = 100; /* The speed/duration of the effect in milliseconds */
+const textArr = ['Competitive Programmer', 'Web Developer', 'Machine Learning Enthusiast'];
+const speed = 150; // Reduced speed for a smoother typing effect
 let index = 0;
 let textIndex = 0;
 
@@ -27,13 +26,17 @@ function typeWriter() {
         } else {
             index++;
             textIndex = 0;
-            textElement.innerHTML = ''; // Clear the text element for the next text
-            setTimeout(typeWriter, speed * 2); // Wait for a while before typing the next text
+            setTimeout(() => {
+                textElement.innerHTML = ''; // Clear the text element for the next text
+                if (index === textArr.length) {
+                    index = 0; // Reset index to loop back to the beginning
+                }
+                setTimeout(typeWriter, speed * 3); // Wait longer before typing the next text
+            }, speed * 10); // Extra wait before clearing for smooth transition
         }
     }
-   
 }
 
 // Start the typing effect
- typeWriter();
+typeWriter();
 
