@@ -2,10 +2,6 @@
 
 <p align="center">
 <img src="https://komarev.com/ghpvc/?username=Shivanshu9120&label=Profile%20Views&color=0e75b6&style=for-the-badge"/>
-&nbsp;
-<a href="https://github.com/Shivanshu9120?tab=followers">
-<img src="https://img.shields.io/github/followers/Shivanshu9120?label=Follow&style=for-the-badge&logo=github"/>
-</a>
 </p>
 
 <h1 align="center">Hi 👋, I'm Shivanshu Singh</h1>
@@ -52,10 +48,6 @@ Building scalable web applications and AI-powered solutions.
 
 ## 👨‍💻 About Me
 
-<table>
-<tr>
-<td width="60%">
-
 - 🔭 Currently working on **Full Stack & AI Applications**
 
 - 🌱 Currently learning **Next.js, AI Agents & AWS**
@@ -74,23 +66,13 @@ Building scalable web applications and AI-powered solutions.
 
 - ⚡ Fun Fact: I enjoy building real-world software, sketching, and exploring emerging technologies.
 
-</td>
-
-<td width="40%" align="center">
-
-<img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/banner.png" width="320"/>
-
-</td>
-</tr>
-</table>
-
 ---
 
 ## 💻 Tech Stack
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,mongodb,postgres,python,django,flask,tailwind,git,docker,aws,linux,vscode,cpp,c,js,ts,html,css,figma,postman&perline=11"/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,mongodb,postgresql,python,django,flask,tailwind,git,docker,aws,linux,vscode,cpp,c,js,ts,html,css,figma,postman&perline=11"/>
 
 </p>
 
@@ -121,26 +103,6 @@ Building scalable web applications and AI-powered solutions.
 <p align="center">
 
 <img src="https://github-readme-streak-stats.herokuapp.com?user=Shivanshu9120&theme=default&hide_border=true"/>
-
-</p>
-
----
-
-## 📈 Contribution Graph
-
-<p align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Shivanshu9120&theme=github-compact&hide_border=true"/>
-
-</p>
-
----
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Shivanshu9120&theme=flat&margin-w=10&margin-h=10&column=6&no-frame=true"/>
 
 </p>
 
